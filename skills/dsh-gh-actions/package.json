@@ -1,0 +1,14 @@
+{
+  "name": "dsh-gh-actions",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DSH skill：原生 gh 的 Actions 排障与免 clone 文件操作",
+  "type": "module",
+  "files": ["SKILL.md", "lib", "scripts", "references", "README.md", "test"],
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "verify": "node scripts/verify.mjs"
+  },
+  "license": "MIT"
+}
